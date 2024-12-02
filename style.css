@@ -1,0 +1,42 @@
+#box{
+    display: flex;
+    border: 5px solid gray;
+    height:800px;
+    width :650px;
+}
+#box1{
+    height:800px;
+    width :300px;
+    border: 1px solid transparent;
+    background-color: #484444;
+}
+#box2{
+    height:800px;
+    width :500px;
+    border: 2px solid transparent;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 10px;
+}
+#photo{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-left: 75px;
+    margin-top: 40px;
+    background-image: url("./ambika\ yemul\ IMG.jpeg");
+    background-size: cover;
+}
+.contact{
+    display: inline-block;
+    gap:10px;
+    margin-left: 20px;
+    color: beige;
+}
+#line{
+    width:220px;
+    background-color: beige;
+    border-bottom: 1px solid white;
+    margin-left: 20px;
+    margin-top: 3px;
+}
